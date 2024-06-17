@@ -1,0 +1,18 @@
+import turtle
+h = turtle.Turtle()
+
+turtle.write("    Eid Mubarak",font=("Times New Roman", 50, "normal"), move=True)
+
+h.color("black")
+h.begin_fill()
+h.fillcolor("red")
+h.left(140)
+h.forward(180)
+h.circle(-90, 200)
+h.left(120)
+h.setheading(60)
+h.circle(-90, 200)
+h.forward(180)
+h.end_fill()
+
+turtle.done()
